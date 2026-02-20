@@ -1,0 +1,14 @@
+/*
+!config
+!defaultconfigs
+!kubejs
+kubejs/server_scripts/*.json
+kubejs/client_scripts/*.json
+kubejs/startup_scripts/*.json
+kubejs/assets
+!local
+local/*
+!local/kubejs
+local/kubejs/*
+!local/kubejs/dev.json
+!.gitignore
