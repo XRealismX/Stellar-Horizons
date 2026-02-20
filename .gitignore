@@ -5,8 +5,10 @@
 kubejs/server_scripts/*.json
 kubejs/client_scripts/*.json
 kubejs/startup_scripts/*.json
-kubejs/README.txt
 kubejs/assets
+README.md
+README.txt
+.probe
 !local
 local/*
 !local/kubejs
