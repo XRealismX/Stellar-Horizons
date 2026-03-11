@@ -19,7 +19,7 @@ icon = "minecraft:stone_pickaxe"
 
 # Message sent to ALL team members when this stage is unlocked
 # Supports color codes: &c=red, &a=green, &b=aqua, &l=bold, &o=italic, &r=reset
-unlock_message = "&7&lStone Age Unlocked! &r&8Begin your journey into the unknown."
+unlock_message = ""
 
 # ============================================================================
 # DEPENDENCY (v1.1) - Stage(s) that must be unlocked BEFORE this one

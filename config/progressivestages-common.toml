@@ -19,9 +19,9 @@
 	#Block item use (right-click with item in hand)
 	block_item_use = true
 	#Block item pickup (prevent picking up locked items from ground)
-	block_item_pickup = true
+	block_item_pickup = false
 	#Block item holding in inventory (auto-drop locked items)
-	block_item_inventory = true
+	block_item_inventory = false
 	#Frequency to scan inventory for locked items (in ticks, 20 ticks = 1 second)
 	#Set to 0 to disable periodic scanning
 	# Default: 20
@@ -51,7 +51,7 @@
 	#Rename locked items to hide their identity
 	#If true, locked items show as 'Unknown Item' instead of real name
 	#Players must unlock the stage to see the real name
-	mask_locked_item_names = true
+	mask_locked_item_names = false
 	#Cooldown in milliseconds between lock notification messages
 	#Prevents chat spam when standing on locked items
 	# Default: 3000
@@ -60,7 +60,7 @@
 	#Show chat message when player is blocked by a lock
 	show_lock_message = true
 	#Play sound when player is blocked by a lock
-	play_lock_sound = true
+	play_lock_sound = false
 	#Sound to play when blocked
 	lock_sound = "minecraft:block.note_block.pling"
 	#Sound volume (0.0 to 1.0)
@@ -80,7 +80,7 @@
 	#Enable EMI integration
 	enabled = true
 	#Show lock icon overlay on locked items/recipes in EMI
-	show_lock_icon = true
+	show_lock_icon = false
 	#Lock icon position: top_left, top_right, bottom_left, bottom_right, center
 	lock_icon_position = "top_left"
 	#Lock icon size in pixels
@@ -92,7 +92,7 @@
 	#Highlight color (ARGB hex format: 0xAARRGGBB)
 	highlight_color = "0x50FFAA40"
 	#Show lock info in item tooltips
-	show_tooltip = true
+	show_tooltip = false
 	#Show locked recipes in EMI
 	#If false, locked items and recipes will be hidden from EMI entirely
 	#If true, locked items will show with lock overlays

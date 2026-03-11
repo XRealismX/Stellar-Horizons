@@ -74,7 +74,9 @@ items = [
     "minecraft:compass",
     "minecraft:clock",
     "minecraft:minecart",
-    "minecraft:rail"
+    "minecraft:rail",
+
+    "dysoncubeproject:em_railejector_controller"
 ]
 
 # -----------------------------------------------------------------------------
@@ -105,7 +107,8 @@ blocks = [
     "minecraft:iron_bars",
     "minecraft:hopper",
     "minecraft:blast_furnace",
-    "minecraft:smithing_table"
+    "minecraft:smithing_table",
+    "dysoncubeproject:em_railejector_controller"
 ]
 
 # -----------------------------------------------------------------------------

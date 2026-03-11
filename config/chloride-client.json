@@ -19,7 +19,7 @@
   "playerNametagRendering": true,
   "itemNametagRendering": true,
   "chunkFadeSpeed": "SLOW",
-  "darknessMode": "VANILLA",
+  "darknessMode": "BLACKNESS",
   "darknessOnFullBrightBiomes": false,
   "darknessOnOverworld": true,
   "darknessOnNether": false,
