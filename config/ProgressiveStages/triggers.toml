@@ -34,6 +34,7 @@
 # Format: "namespace:item_id" = "stage_id"
 # ============================================================================
 [items]
+"minecraft:shulker_box" = "sophisticated_storage"
 # Examples:
 # "minecraft:iron_ingot" = "iron_age"
 # "minecraft:diamond" = "diamond_age"

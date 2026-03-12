@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hey"
+	group: "2FF146D374B35F92"
+	id: "4D3FF72CB557EFFE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "0B13227F2DB259DD"
+		tasks: [{
+			id: "3412F51C584D19B8"
+			item: { count: 1, id: "minecraft:oak_button" }
+			type: "item"
+		}]
+		x: -1.0d
+		y: 3.0d
+	}]
+}

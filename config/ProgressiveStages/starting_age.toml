@@ -6,20 +6,20 @@
 
 [stage]
 # Unique identifier (must match filename without .toml)
-id = "stone_age"
+id = "starting_age"
 
 # Display name shown in tooltips, messages, etc.
-display_name = "Stone Age"
+display_name = "Starting Age"
 
 # Description for quest integration or future GUI
-description = "Basic survival tools and resources - the beginning of your journey"
+description = "The beginning of your journey"
 
 # Icon item for visual representation
 icon = "minecraft:stone_pickaxe"
 
 # Message sent to ALL team members when this stage is unlocked
 # Supports color codes: &c=red, &a=green, &b=aqua, &l=bold, &o=italic, &r=reset
-unlock_message = ""
+unlock_message = "Starting Age Unlocked!"
 
 # ============================================================================
 # DEPENDENCY (v1.1) - Stage(s) that must be unlocked BEFORE this one

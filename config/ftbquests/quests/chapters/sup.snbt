@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sup"
+	group: "199517368E74A1B8"
+	id: "42B698F6266CB146"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6E38F5A519F19C64"
+		tasks: [{
+			id: "4F76E5450BD000F4"
+			item: { count: 1, id: "minecraft:spruce_pressure_plate" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -2.0d
+	}]
+}

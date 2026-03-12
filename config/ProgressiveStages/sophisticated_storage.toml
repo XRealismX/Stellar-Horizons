@@ -6,27 +6,27 @@
 
 [stage]
 # Unique identifier (must match filename without .toml)
-id = "iron_age"
+id = "sophisticated_storage"
 
 # Display name shown in tooltips, messages, etc.
-display_name = "Iron Age"
+display_name = "Sophisticated Storage"
 
 # Description for quest integration or future GUI
-description = "Iron tools, armor, and basic machinery - industrialization begins"
+description = "Chest advancement"
 
 # Icon item for visual representation
-icon = "minecraft:iron_pickaxe"
+icon = "sophisticatedstorage:iron_chest"
 
 # Message sent to ALL team members when this stage is unlocked
 # Supports color codes: &c=red, &a=green, &b=aqua, &l=bold, &o=italic, &r=reset
-unlock_message = "&6&lIron Age Unlocked! &r&7You can now use iron equipment and basic machines."
+unlock_message = "&6&lSophisticated Storage Unlocked! &r&7You can now use advanced storage solutions."
 
 # ============================================================================
 # DEPENDENCY (v1.1) - Stage(s) that must be unlocked BEFORE this one
 # ============================================================================
 
 # Single dependency - requires stone_age before this can be granted
-dependency = "stone_age"
+dependency = "starting_age"
 
 # Multiple dependencies (list format):
 # dependency = ["stone_age", "tutorial_complete"]
@@ -44,40 +44,7 @@ dependency = "stone_age"
 # ITEMS - Lock specific items by registry ID
 # Players cannot use, pickup, or hold these items until stage is unlocked
 # -----------------------------------------------------------------------------
-items = [
-    # Raw materials
-    "minecraft:iron_ingot",
-    "minecraft:iron_block",
-    "minecraft:iron_ore",
-    "minecraft:deepslate_iron_ore",
-    "minecraft:raw_iron",
-    "minecraft:raw_iron_block",
-
-    # Tools
-    "minecraft:iron_pickaxe",
-    "minecraft:iron_sword",
-    "minecraft:iron_axe",
-    "minecraft:iron_shovel",
-    "minecraft:iron_hoe",
-
-    # Armor
-    "minecraft:iron_helmet",
-    "minecraft:iron_chestplate",
-    "minecraft:iron_leggings",
-    "minecraft:iron_boots",
-
-    # Utility items
-    "minecraft:shield",
-    "minecraft:bucket",
-    "minecraft:shears",
-    "minecraft:flint_and_steel",
-    "minecraft:compass",
-    "minecraft:clock",
-    "minecraft:minecart",
-    "minecraft:rail",
-
-    "dysoncubeproject:em_railejector_controller"
-]
+items = []
 
 # -----------------------------------------------------------------------------
 # ITEM TAGS - Lock all items in a tag (use # prefix)
@@ -100,16 +67,7 @@ item_mods = []
 # BLOCKS - Lock block placement and interaction
 # Players cannot place or right-click these blocks
 # -----------------------------------------------------------------------------
-blocks = [
-    "minecraft:iron_block",
-    "minecraft:iron_door",
-    "minecraft:iron_trapdoor",
-    "minecraft:iron_bars",
-    "minecraft:hopper",
-    "minecraft:blast_furnace",
-    "minecraft:smithing_table",
-    "dysoncubeproject:em_railejector_controller"
-]
+blocks = []
 
 # -----------------------------------------------------------------------------
 # BLOCK TAGS - Lock all blocks in a tag
@@ -163,7 +121,7 @@ fluid_mods = []
 # Example: Lock all of Create mod until iron age
 # mods = ["create"]
 # -----------------------------------------------------------------------------
-mods = []
+mods = ["sophisticatedstorage"]
 
 # -----------------------------------------------------------------------------
 # NAMES - Lock items/blocks by name (case-insensitive substring matching)
