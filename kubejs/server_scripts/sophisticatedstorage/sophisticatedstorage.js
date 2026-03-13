@@ -188,10 +188,8 @@ ServerEvents.recipes(event => {
         'minecraft:lever',
         'minecraft:netherite_block'
     ]);
-});
 
-ServerEvents.recipes(function(event) {
-
+    // Changed Storage Recipes Chests, Barrels, and Shulker Boxes (ingots/gems → blocks)
     var cond = function(id) {
         return [{ type: 'almostunified:conditional', conditions_met: true, original_conditions: [{ type: 'sophisticatedcore:item_enabled', itemRegistryName: id }] }]
     }
@@ -289,4 +287,4 @@ ServerEvents.recipes(function(event) {
     makeShapeless('sophisticatedstorage:limited_netherite_barrel_3', 'sophisticatedstorage:limited_diamond_barrel_3', 'c:storage_blocks/netherite', 'sophisticatedstorage:limited_netherite_barrel_3')
     makeShapeless('sophisticatedstorage:limited_netherite_barrel_4', 'sophisticatedstorage:limited_diamond_barrel_4', 'c:storage_blocks/netherite', 'sophisticatedstorage:limited_netherite_barrel_4')
 
-})
+});
