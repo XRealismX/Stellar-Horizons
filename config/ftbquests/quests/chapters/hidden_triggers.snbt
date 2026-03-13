@@ -4,14 +4,25 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "hidden_triggers"
-	group: ""
+	group: "52370DE372E295BF"
 	id: "1F7FCBCCF73E68FF"
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
+		icon: {
+			id: "sophisticatedstorage:basic_tier_upgrade"
+		}
 		id: "0EA7A204071897F4"
+		progressivestages_required_stage: "starting_age"
+		rewards: [{
+			auto: "disabled"
+			id: "12890FC80B2BAB11"
+			ignore_reward_blocking: true
+			stage: "sophisticated_storage"
+			type: "gamestage"
+		}]
 		tasks: [{
-			id: "79C4CBE49E47B169"
+			id: "10E849401EFE0949"
 			item: { count: 1, id: "minecraft:shulker_box" }
 			type: "item"
 		}]

@@ -20,7 +20,21 @@
 	block_item_use = true
 	#Block item pickup (prevent picking up locked items from ground)
 	block_item_pickup = false
+	#Prevent locked items from being in the hotbar
+	#When true, locked items in hotbar slots are moved to main inventory (not dropped)
+	#When false, locked items can remain in the hotbar but still cannot be used
+	#This is a softer alternative to block_item_inventory — lets players store items for later
+	#Ignored if block_item_inventory is true (which drops items from everywhere)
+	block_item_hotbar = true
+	#Prevent picking up locked items with the mouse cursor in GUIs
+	#When true, players cannot click on locked items in inventories/containers
+	#When false, players can freely move locked items between inventory and chests
+	#This allows players to store locked items for later use once they unlock the stage
+	#Ignored if block_item_inventory is true (which blocks all interaction)
+	block_item_mouse_pickup = false
 	#Block item holding in inventory (auto-drop locked items)
+	#This is the strictest option — locked items are dropped on the ground
+	#If false, see block_item_hotbar and block_item_mouse_pickup for softer alternatives
 	block_item_inventory = false
 	#Frequency to scan inventory for locked items (in ticks, 20 ticks = 1 second)
 	#Set to 0 to disable periodic scanning
@@ -60,7 +74,7 @@
 	#Show chat message when player is blocked by a lock
 	show_lock_message = true
 	#Play sound when player is blocked by a lock
-	play_lock_sound = false
+	play_lock_sound = true
 	#Sound to play when blocked
 	lock_sound = "minecraft:block.note_block.pling"
 	#Sound volume (0.0 to 1.0)

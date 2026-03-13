@@ -8,6 +8,12 @@
 	quest_links: [ ]
 	quests: [{
 		id: "0B13227F2DB259DD"
+		rewards: [{
+			auto: "invisible"
+			id: "0342F88EDB8661FB"
+			stage: "sophisticated_storage"
+			type: "gamestage"
+		}]
 		tasks: [{
 			id: "3412F51C584D19B8"
 			item: { count: 1, id: "minecraft:oak_button" }

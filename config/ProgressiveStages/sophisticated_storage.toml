@@ -12,14 +12,15 @@ id = "sophisticated_storage"
 display_name = "Sophisticated Storage"
 
 # Description for quest integration or future GUI
-description = "Chest advancement"
+description = "Storage beyond chests! Unlock barrels, shulker boxes, and more to organize your items."
 
 # Icon item for visual representation
-icon = "sophisticatedstorage:iron_chest"
+icon = "sophisticatedstorage:barrel"
 
 # Message sent to ALL team members when this stage is unlocked
 # Supports color codes: &c=red, &a=green, &b=aqua, &l=bold, &o=italic, &r=reset
-unlock_message = "&6&lSophisticated Storage Unlocked! &r&7You can now use advanced storage solutions."
+unlock_message = ""
+
 
 # ============================================================================
 # DEPENDENCY (v1.1) - Stage(s) that must be unlocked BEFORE this one
