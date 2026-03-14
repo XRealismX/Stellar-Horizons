@@ -1,11 +1,14 @@
 {
+	chapter.1927A979D5E5D188.title: "Start Here"
 	chapter.1F7FCBCCF73E68FF.title: "Storage Triggers"
-	chapter.42B698F6266CB146.title: "Sup"
-	chapter.4D3FF72CB557EFFE.title: "Hey"
 	chapter_group.199517368E74A1B8.title: "Information"
 	chapter_group.2FF146D374B35F92.title: "Hints"
 	chapter_group.52370DE372E295BF.title: "Hidden Triggers"
 	quest.0EA7A204071897F4.quest_desc: ["When you get a shulker box you get access to Sophisticated Storage."]
-	quest.0EA7A204071897F4.title: "Sophisticated Storage"
+	quest.0EA7A204071897F4.title: "Sophisticated Storage Milestone"
+	quest.4619A40DCD57BD50.quest_desc: ["Requires any type of netherite upgrade or storage to unlock AE2 storage."]
+	quest.4619A40DCD57BD50.title: "AE2 Storage Milestone"
 	task.0272868EDB376331.title: "Hey"
+	task.02E8BCE8B09BD796.title: "The Beginning"
+	task.262D5159FAB080D3.title: "Any Netherite"
 }

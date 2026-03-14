@@ -288,3 +288,22 @@ ServerEvents.recipes(event => {
     makeShapeless('sophisticatedstorage:limited_netherite_barrel_4', 'sophisticatedstorage:limited_diamond_barrel_4', 'c:storage_blocks/netherite', 'sophisticatedstorage:limited_netherite_barrel_4')
 
 });
+
+// Tag for netherite tier upgrades + storage blocks (chest, shulker, barrels)
+ServerEvents.tags('item', event => {
+    event.add('stellarhorizons:netherite_upgrades', [
+        'sophisticatedstorage:basic_to_netherite_tier_upgrade',
+        'sophisticatedstorage:copper_to_netherite_tier_upgrade',
+        'sophisticatedstorage:iron_to_netherite_tier_upgrade',
+        'sophisticatedstorage:gold_to_netherite_tier_upgrade',
+        'sophisticatedstorage:diamond_to_netherite_tier_upgrade',
+
+        'sophisticatedstorage:netherite_chest',
+        'sophisticatedstorage:netherite_shulker_box',
+        'sophisticatedstorage:netherite_barrel',
+        'sophisticatedstorage:limited_netherite_barrel_1',
+        'sophisticatedstorage:limited_netherite_barrel_2',
+        'sophisticatedstorage:limited_netherite_barrel_3',
+        'sophisticatedstorage:limited_netherite_barrel_4'
+    ])
+})

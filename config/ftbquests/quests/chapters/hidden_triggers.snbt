@@ -8,25 +8,47 @@
 	id: "1F7FCBCCF73E68FF"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "sophisticatedstorage:basic_tier_upgrade"
+	quests: [
+		{
+			icon: {
+				id: "sophisticatedstorage:basic_tier_upgrade"
+			}
+			id: "0EA7A204071897F4"
+			progressivestages_required_stage: "starting_age"
+			rewards: [{
+				auto: "enabled"
+				id: "12890FC80B2BAB11"
+				ignore_reward_blocking: true
+				stage: "sophisticated_storage"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "10E849401EFE0949"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
 		}
-		id: "0EA7A204071897F4"
-		progressivestages_required_stage: "starting_age"
-		rewards: [{
-			auto: "disabled"
-			id: "12890FC80B2BAB11"
-			ignore_reward_blocking: true
-			stage: "sophisticated_storage"
-			type: "gamestage"
-		}]
-		tasks: [{
-			id: "10E849401EFE0949"
-			item: { count: 1, id: "minecraft:shulker_box" }
-			type: "item"
-		}]
-		x: -5.5d
-		y: -2.0d
-	}]
+		{
+			id: "4619A40DCD57BD50"
+			progressivestages_required_stage: "sophisticatedstorage"
+			rewards: [{
+				auto: "enabled"
+				id: "0E85BF8F85806060"
+				stage: "ae2_storage"
+				team_reward: true
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "262D5159FAB080D3"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(stellarhorizons:netherite_upgrades))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+	]
 }
