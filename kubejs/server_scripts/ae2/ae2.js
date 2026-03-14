@@ -2,7 +2,7 @@
 // AE2 Storage Tag
 ServerEvents.tags('item', event => {
   // AE2 Storage Tag
-  const ae2StorageItems = [
+  const ae2Storage = [
     // Main AE2 blocks
     'ae2:controller',
     'ae2:drive',
@@ -142,7 +142,7 @@ ServerEvents.tags('item', event => {
     'ae2:black_lumen_paint_ball'
   ]
 
-  const ae2LogisticsUpgradeItems = [
+  const ae2LogisticsUpgrade = [
     'ae2:basic_card',
     'ae2:redstone_card',
     'ae2:capacity_card',
@@ -154,6 +154,7 @@ ServerEvents.tags('item', event => {
     'ae2:crafting_card',
     'ae2:equal_distribution_card',
     'ae2:energy_card',
+    'ae2:wireless_booster',
     'ae2:level_emitter',
     'ae2:condenser',
     'ae2:export_bus',
@@ -174,7 +175,7 @@ ServerEvents.tags('item', event => {
     'ae2:light_detector'
   ]
 
-  const ae2AutocraftingItems = [
+  const ae2Autocrafting = [
     'ae2:molecular_assembler',
     'ae2:pattern_provider',
     'ae2:crafting_monitor',
@@ -188,10 +189,25 @@ ServerEvents.tags('item', event => {
     'ae2:pattern_encoding_terminal',
     'ae2:pattern_access_terminal',
     'ae2:cable_pattern_provider',
-    'ae2:conversion_monitor'
+    'ae2:conversion_monitor',
+    'ae2:growth_accelerator'
   ]
 
-  event.add('stellarhorizons:ae2_storage', ae2StorageItems)
-  event.add('stellarhorizons:ae2_logistics_upgrade', ae2LogisticsUpgradeItems)
-  event.add('stellarhorizons:ae2_autocrafting', ae2AutocraftingItems)
+  const ae2PersonalStorage = [
+    'ae2:portable_item_cell_1k', 
+    'ae2:portable_item_cell_4k', 
+    'ae2:portable_item_cell_16k', 
+    'ae2:portable_item_cell_64k', 
+    'ae2:portable_item_cell_256k', 
+    'ae2:portable_fluid_cell_1k', 
+    'ae2:portable_fluid_cell_4k', 
+    'ae2:portable_fluid_cell_16k', 
+    'ae2:portable_fluid_cell_64k', 
+    'ae2:portable_fluid_cell_256k'
+  ]
+
+  event.add('stellarhorizons:ae2_storage', ae2Storage)
+  event.add('stellarhorizons:ae2_logistics_upgrade', ae2LogisticsUpgrade)
+  event.add('stellarhorizons:ae2_autocrafting', ae2Autocrafting)
+  event.add('stellarhorizons:ae2_personal_storage', ae2PersonalStorage)
 })
