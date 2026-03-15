@@ -266,7 +266,7 @@ ServerEvents.tags('item', event => {
   event.add('stellarhorizons:ae2_logistics', ae2Logistics)
   event.add('stellarhorizons:ae2_autocrafting', ae2Autocrafting)
   event.add('stellarhorizons:ae2_upgrades', ae2Upgrades)
-})
+});
 
 // Remove recipes for items that shouldn't be obtainable in the pack
 ServerEvents.recipes(event => {
