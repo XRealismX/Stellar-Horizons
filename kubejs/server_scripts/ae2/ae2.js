@@ -267,3 +267,28 @@ ServerEvents.tags('item', event => {
   event.add('stellarhorizons:ae2_autocrafting', ae2Autocrafting)
   event.add('stellarhorizons:ae2_upgrades', ae2Upgrades)
 })
+
+// Remove recipes for items that shouldn't be obtainable in the pack
+ServerEvents.recipes(event => {
+  event.remove({ id: 'ae2:vibration_chamber' })
+  event.remove({ id: 'ae2:crystal_resonance_generator' })
+  event.remove({ id: 'ae2:matter_cannon' })
+  event.remove({ id: 'ae2:entropy_manipulator' })
+  event.remove({ id: 'ae2:charged_staff' })
+  event.remove({ id: 'ae2:fluix_upgrade_smithing_template' })
+  event.remove({ id: 'ae2:nether_quartz_sword' })
+  event.remove({ id: 'ae2:certus_quartz_sword' })
+  event.remove({ id: 'ae2:fluix_sword' })
+  event.remove({ id: 'ae2:nether_quartz_hoe' })
+  event.remove({ id: 'ae2:certus_quartz_shovel' })
+  event.remove({ id: 'ae2:fluix_shovel' })
+  event.remove({ id: 'ae2:fluix_hoe' })
+  event.remove({ id: 'ae2:certus_quartz_axe' })
+  event.remove({ id: 'ae2:nether_quartz_axe' })
+  event.remove({ id: 'ae2:nether_quartz_shovel' })
+  event.remove({ id: 'ae2:certus_quartz_pickaxe' })
+  event.remove({ id: 'ae2:certus_quartz_hoe' })
+  event.remove({ id: 'ae2:fluix_axe' })
+  event.remove({ id: 'ae2:nether_quartz_pickaxe' })
+  event.remove({ id: 'ae2:fluix_pickaxe' })
+});
