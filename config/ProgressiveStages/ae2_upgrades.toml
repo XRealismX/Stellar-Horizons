@@ -6,16 +6,16 @@
 
 [stage]
 # Unique identifier (must match filename without .toml)
-id = "ae2_personal_storage"
+id = "ae2_upgrades"
 
 # Display name shown in tooltips, messages, etc.
-display_name = "AE2 Personal Storage"
+display_name = "AE2 Upgrades"
 
 # Description for quest integration or future GUI
-description = "Unlock access to Applied Energistics 2 personal storage."
+description = "Unlock access to Applied Energistics 2 upgrade items."
 
 # Icon item for visual representation
-icon = "ae2:portable_item_cell_1k"
+icon = "ae2:speed_upgrade"
 
 # Message sent to ALL team members when this stage is unlocked
 # Supports color codes: &c=red, &a=green, &b=aqua, &l=bold, &o=italic, &r=reset
@@ -27,7 +27,7 @@ unlock_message = ""
 # ============================================================================
 
 # Single dependency - requires stone_age before this can be granted
-dependency = "sophisticated_storage" # THIS IS A PLACEHOLDER for the Personal Storage Chain
+dependency = "sophisticated_storage" # THIS IS A PLACEHOLDER for the Autocrafting Chain
 
 # Multiple dependencies (list format):
 # dependency = ["stone_age", "tutorial_complete"]
@@ -51,7 +51,7 @@ items = []
 # ITEM TAGS - Lock all items in a tag (use # prefix)
 # Example: "#c:ingots/iron" locks all items tagged as iron ingots
 # -----------------------------------------------------------------------------
-item_tags = ["#stellarhorizons:ae2_personal_storage"]
+item_tags = ["#stellarhorizons:ae2_upgrades"]
 
 # -----------------------------------------------------------------------------
 # ITEM_MODS - Lock all items from a mod (items only, not blocks or entities)
@@ -71,7 +71,7 @@ blocks = []
 # BLOCK TAGS - Lock all blocks in a tag
 # Example: block_tags = ["#minecraft:anvil"]
 # -----------------------------------------------------------------------------
-block_tags = ["#stellarhorizons:ae2_personal_storage"]
+block_tags = ["#stellarhorizons:ae2_upgrades"]
 
 # -----------------------------------------------------------------------------
 # BLOCK_MODS - Lock all blocks from a mod (blocks only, not items or entities)

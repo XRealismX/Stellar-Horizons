@@ -20,7 +20,7 @@
 			}
 			"ftblibrary:toggle/night": {
 				enabled: true
-				x: 2
+				x: 3
 				y: 0
 			}
 			"ftblibrary:toggle/gamemode": {
@@ -35,12 +35,17 @@
 			}
 			"ftblibrary:toggle/day": {
 				enabled: true
+				x: 2
+				y: 0
+			}
+			"leaderboards:leaderboards": {
+				enabled: true
 				x: 1
 				y: 0
 			}
 			"ftblibrary:toggle/rain": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 0
 			}
 		}

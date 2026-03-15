@@ -6,13 +6,13 @@
 
 [stage]
 # Unique identifier (must match filename without .toml)
-id = "ae2_logistics_upgrade"
+id = "ae2_logistics"
 
 # Display name shown in tooltips, messages, etc.
-display_name = "AE2 Logistics and Upgrades"
+display_name = "AE2 Logistics"
 
 # Description for quest integration or future GUI
-description = "Unlock access to Applied Energistics 2 logistics upgrade items."
+description = "Unlock access to Applied Energistics 2 logistics items."
 
 # Icon item for visual representation
 icon = "ae2:memory_card"
@@ -51,7 +51,7 @@ items = []
 # ITEM TAGS - Lock all items in a tag (use # prefix)
 # Example: "#c:ingots/iron" locks all items tagged as iron ingots
 # -----------------------------------------------------------------------------
-item_tags = ["#stellarhorizons:ae2_logistics_upgrade"]
+item_tags = ["#stellarhorizons:ae2_logistics"]
 
 # -----------------------------------------------------------------------------
 # ITEM_MODS - Lock all items from a mod (items only, not blocks or entities)
@@ -71,7 +71,7 @@ blocks = []
 # BLOCK TAGS - Lock all blocks in a tag
 # Example: block_tags = ["#minecraft:anvil"]
 # -----------------------------------------------------------------------------
-block_tags = ["#stellarhorizons:ae2_logistics_upgrade"]
+block_tags = ["#stellarhorizons:ae2_logistics"]
 
 # -----------------------------------------------------------------------------
 # BLOCK_MODS - Lock all blocks from a mod (blocks only, not items or entities)
