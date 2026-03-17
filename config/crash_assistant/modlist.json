@@ -305,12 +305,12 @@
     "curseForgeHash": 384648541,
     "modrinthHash": "dfb387c23106f07ed58d2d3f7682663aa7aac53a"
   },
-  "lootr-neoforge-1.21.1-1.11.36.116.jar": {
-    "jarName": "lootr-neoforge-1.21.1-1.11.36.116.jar",
+  "lootr-neoforge-1.21.1-1.11.36.117.jar": {
+    "jarName": "lootr-neoforge-1.21.1-1.11.36.117.jar",
     "modId": "lootr",
-    "version": "1.21.1-1.11.36.116",
-    "curseForgeHash": 874993708,
-    "modrinthHash": "476c757c3859fe9acd95130bd44f4443586c46ec"
+    "version": "1.21.1-1.11.36.117",
+    "curseForgeHash": 1162552906,
+    "modrinthHash": "5c9989cec65fba65b7c9c40189e46a0f2051938f"
   },
   "modernfix-neoforge-5.26.1+mc1.21.1.jar": {
     "jarName": "modernfix-neoforge-5.26.1+mc1.21.1.jar",
@@ -424,6 +424,20 @@
     "curseForgeHash": 2093242437,
     "modrinthHash": "5b8a0b43a474c066371b2e16f9bfb88622552a74"
   },
+  "silent-gear-1.21.1-neoforge-4.1.3.jar": {
+    "jarName": "silent-gear-1.21.1-neoforge-4.1.3.jar",
+    "modId": "silentgear",
+    "version": "4.1.3",
+    "curseForgeHash": 3667991778,
+    "modrinthHash": "d0f4348588322a5de0e72d59ba130cec2280fa92"
+  },
+  "silent-lib-1.21.1-neoforge-10.5.1.jar": {
+    "jarName": "silent-lib-1.21.1-neoforge-10.5.1.jar",
+    "modId": "silentlib",
+    "version": "10.5.1",
+    "curseForgeHash": 110650841,
+    "modrinthHash": "b08b639706ce8cbc426045501b7f2da59eceb14f"
+  },
   "sodium-neoforge-0.6.13+mc1.21.1.jar": {
     "jarName": "sodium-neoforge-0.6.13+mc1.21.1.jar",
     "modId": "sodium",
@@ -431,12 +445,12 @@
     "curseForgeHash": 1900921493,
     "modrinthHash": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1"
   },
-  "sophisticatedcore-1.21.1-1.4.8.1520.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.8.1520.jar",
+  "sophisticatedcore-1.21.1-1.4.9.1526.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.9.1526.jar",
     "modId": "sophisticatedcore",
-    "version": "1.4.8",
-    "curseForgeHash": 4270418125,
-    "modrinthHash": "506d66781cf4f0f1f58aba3272314483f52d4061"
+    "version": "1.4.9",
+    "curseForgeHash": 1182257048,
+    "modrinthHash": "eba6668d1a05ffd50cf8f360941639da055b83c8"
   },
   "sophisticatedstorage-1.21.1-1.5.30.1520.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.30.1520.jar",
