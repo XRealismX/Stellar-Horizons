@@ -12,6 +12,8 @@
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
   "corpse:corpse": null,
+  "framedblocks:framed_block_generic": null,
+  "framedblocks:framed_item_frame": null,
   "ftbquests:barrier": null,
   "jade:block_face": null,
   "jade:block_properties": null,
